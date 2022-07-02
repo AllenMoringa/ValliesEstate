@@ -1,0 +1,63 @@
+.maincontainer{
+    width: 100%;
+    height: 100px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+.subcontainer{
+    height: 100px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+} 
+a:active{
+    color: blue;
+} 
+.button{
+    color: white;
+    background-color: blue;
+    height:50px;
+    border-radius: 5px;
+}
+.section1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.sectionA{
+    width: 45%;
+}
+.sectionB{
+    width: 45%;
+}
+.sectionA p:first-child{
+    font-size: 60px;
+    margin-left: 110px;
+    color: blue;
+}
+.sectionA p:nth-child(2){
+    font-size: 30px;
+    margin-left: 110px;
+
+}
+.sectionA button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 110px;
+    background-color: blue; 
+    color: white;
+}
+.sectionB img{
+    height: 400px;
+    width: 500px;
+} 
